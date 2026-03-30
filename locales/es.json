@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "home": "INICIO",
+    "catalog": "CATÁLOGO",
+    "about": "NOSOTROS",
+    "services": "SERVICIOS",
+    "contact": "CONTÁCTANOS"
+  },
+  "home": {
+    "hero": {
+      "title": "CATÁLOGO DE PRODUCTOS PETROLEROS",
+      "subtitle": "Calidad comprobada, productos homologados",
+      "certified": "Productos Certificados",
+      "delivery": "Entrega Nacional",
+      "warranty": "Garantía de Calidad"
+    },
+    "products": {
+      "title": "NUESTROS PRODUCTOS",
+      "viewDetails": "Ver detalles"
+    },
+    "cta": {
+      "title": "¿Necesitas más información?",
+      "subtitle": "Contáctanos para cotizaciones y asesoría técnica especializada",
+      "button": "Contactar Ahora"
+    }
+  },
+  "catalog": {
+    "title": "CATÁLOGO DE PRODUCTOS",
+    "subtitle": "Explora nuestra línea completa de productos petroleros certificados",
+    "showing": "Mostrando",
+    "products": "productos",
+    "product": "producto",
+    "all": "Todos"
+  },
+  "about": {
+    "title": "NOSOTROS",
+    "subtitle": "Innovación, tecnología y experiencia",
+    "reliability": "Fiabilidad y Seguridad",
+    "quality": "Calidad",
+    "qualityDesc": "Productos certificados y homologados que cumplen con los más altos estándares",
+    "commitment": "Compromiso",
+    "commitmentDesc": "Soporte técnico especializado y asesoría en cada proyecto",
+    "innovation": "Innovación",
+    "innovationDesc": "Tecnología de punta y soluciones adaptadas a cada necesidad",
+    "certifications": "Certificaciones y Garantías"
+  },
+  "services": {
+    "title": "NUESTROS SERVICIOS",
+    "subtitle": "Soluciones integrales para tu proyecto",
+    "technical": "Asesoría Técnica",
+    "delivery": "Entrega Nacional",
+    "quotes": "Cotizaciones Rápidas",
+    "warranty": "Garantía de Calidad",
+    "cta": {
+      "title": "¿Listo para tu proyecto?",
+      "subtitle": "Contáctanos y descubre cómo podemos ayudarte",
+      "button": "Solicitar Información"
+    }
+  },
+  "contact": {
+    "title": "CONTÁCTANOS",
+    "subtitle": "Estamos aquí para ayudarte con tu proyecto",
+    "form": {
+      "title": "Envíanos un mensaje",
+      "name": "Nombre completo",
+      "email": "Email",
+      "phone": "Teléfono",
+      "company": "Empresa",
+      "message": "Mensaje",
+      "send": "Enviar Mensaje",
+      "success": "Gracias por contactarnos. Te responderemos pronto."
+    },
+    "info": {
+      "title": "Información de Contacto",
+      "schedule": "Horario",
+      "scheduleText": "Lunes a Viernes: 8:00 AM - 6:00 PM"
+    }
+  },
+  "modal": {
+    "category": "Categoría",
+    "features": "Características Técnicas",
+    "applications": "Aplicaciones",
+    "quality": "Calidad",
+    "support": "Soporte",
+    "warranty": "Garantía",
+    "quote": "Solicitar Cotización",
+    "close": "Cerrar",
+    "certified": "CERTIFICADO",
+    "new": "NUEVO PRODUCTO"
+  },
+  "footer": {
+    "description": "Calidad comprobada, productos homologados para la industria petrolera.",
+    "quickLinks": "ENLACES RÁPIDOS",
+    "services": "SERVICIOS",
+    "contact": "CONTACTO",
+    "rights": "Todos los derechos reservados."
+  }
+}

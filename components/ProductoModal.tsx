@@ -26,7 +26,7 @@ export default function ProductoModal({ producto, onClose }: ProductoModalProps)
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header con imagen */}
-        <div className="relative h-80 bg-gradient-to-br from-blue-50 to-blue-100">
+        <div className="relative h-80 bg-gradient-to-br from-orange-50 to-amber-100">
           <img 
             src={producto.imagen} 
             alt={producto.nombre}
@@ -61,7 +61,7 @@ export default function ProductoModal({ producto, onClose }: ProductoModalProps)
 
         {/* Contenido */}
         <div className="p-8 lg:p-12">
-          <span className="inline-block bg-blue-100 text-blue-800 px-4 py-1 rounded-full text-sm font-bold uppercase mb-4">
+          <span className="inline-block bg-amber-100 text-amber-900 px-4 py-1 rounded-full text-sm font-bold uppercase mb-4">
             {producto.categoria}
           </span>
           
@@ -69,22 +69,22 @@ export default function ProductoModal({ producto, onClose }: ProductoModalProps)
             {producto.nombre}
           </h2>
           
-          <p className="text-gray-600 text-lg leading-relaxed mb-8 border-l-4 border-blue-600 pl-4">
+          <p className="text-gray-600 text-lg leading-relaxed mb-8 border-l-4 border-amber-600 pl-4">
             {producto.descripcionLarga}
           </p>
 
           {/* Stats */}
-          <div className="grid grid-cols-3 gap-4 mb-8 p-6 bg-blue-50 rounded-xl">
+          <div className="grid grid-cols-3 gap-4 mb-8 p-6 bg-amber-50 rounded-xl">
             <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600">A1</div>
+              <div className="text-3xl font-bold text-amber-700">A1</div>
               <div className="text-sm text-gray-600">Calidad</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600">24/7</div>
+              <div className="text-3xl font-bold text-amber-700">24/7</div>
               <div className="text-sm text-gray-600">Soporte</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600">100%</div>
+              <div className="text-3xl font-bold text-amber-700">100%</div>
               <div className="text-sm text-gray-600">Garantía</div>
             </div>
           </div>
@@ -94,7 +94,7 @@ export default function ProductoModal({ producto, onClose }: ProductoModalProps)
             {/* Características */}
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
+                <div className="w-10 h-10 bg-amber-600 rounded-lg flex items-center justify-center">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -106,7 +106,7 @@ export default function ProductoModal({ producto, onClose }: ProductoModalProps)
               <ul className="space-y-3">
                 {producto.caracteristicas.map((caracteristica, index) => (
                   <li key={index} className="flex items-start gap-3 p-3 rounded-lg bg-gray-50">
-                    <span className="flex-shrink-0 w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">
+                    <span className="flex-shrink-0 w-6 h-6 bg-amber-600 text-white rounded-full flex items-center justify-center text-sm font-bold">
                       ✓
                     </span>
                     <span className="text-gray-700">{caracteristica}</span>
@@ -142,7 +142,7 @@ export default function ProductoModal({ producto, onClose }: ProductoModalProps)
 
           {/* CTA Buttons */}
           <div className="flex gap-4">
-            <button className="flex-1 bg-blue-600 text-white py-4 px-6 rounded-xl font-bold hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl">
+            <button className="flex-1 bg-amber-600 text-white py-4 px-6 rounded-xl font-bold hover:bg-amber-700 transition-all shadow-lg hover:shadow-xl">
               Solicitar Cotización
             </button>
             <button 

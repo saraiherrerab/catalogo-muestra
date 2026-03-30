@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "home": "HOME",
+    "catalog": "CATALOG",
+    "about": "ABOUT US",
+    "services": "SERVICES",
+    "contact": "CONTACT US"
+  },
+  "home": {
+    "hero": {
+      "title": "PETROLEUM PRODUCTS CATALOG",
+      "subtitle": "Proven quality, certified products",
+      "certified": "Certified Products",
+      "delivery": "National Delivery",
+      "warranty": "Quality Warranty"
+    },
+    "products": {
+      "title": "OUR PRODUCTS",
+      "viewDetails": "View details"
+    },
+    "cta": {
+      "title": "Need more information?",
+      "subtitle": "Contact us for quotes and specialized technical advice",
+      "button": "Contact Now"
+    }
+  },
+  "catalog": {
+    "title": "PRODUCT CATALOG",
+    "subtitle": "Explore our complete line of certified petroleum products",
+    "showing": "Showing",
+    "products": "products",
+    "product": "product",
+    "all": "All"
+  },
+  "about": {
+    "title": "ABOUT US",
+    "subtitle": "Innovation, technology and experience",
+    "reliability": "Reliability and Safety",
+    "quality": "Quality",
+    "qualityDesc": "Certified and approved products that meet the highest standards",
+    "commitment": "Commitment",
+    "commitmentDesc": "Specialized technical support and advice on every project",
+    "innovation": "Innovation",
+    "innovationDesc": "Cutting-edge technology and solutions adapted to each need",
+    "certifications": "Certifications and Warranties"
+  },
+  "services": {
+    "title": "OUR SERVICES",
+    "subtitle": "Comprehensive solutions for your project",
+    "technical": "Technical Consulting",
+    "delivery": "National Delivery",
+    "quotes": "Fast Quotes",
+    "warranty": "Quality Warranty",
+    "cta": {
+      "title": "Ready for your project?",
+      "subtitle": "Contact us and discover how we can help you",
+      "button": "Request Information"
+    }
+  },
+  "contact": {
+    "title": "CONTACT US",
+    "subtitle": "We are here to help you with your project",
+    "form": {
+      "title": "Send us a message",
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "Company",
+      "message": "Message",
+      "send": "Send Message",
+      "success": "Thank you for contacting us. We will respond soon."
+    },
+    "info": {
+      "title": "Contact Information",
+      "schedule": "Schedule",
+      "scheduleText": "Monday to Friday: 8:00 AM - 6:00 PM"
+    }
+  },
+  "modal": {
+    "category": "Category",
+    "features": "Technical Features",
+    "applications": "Applications",
+    "quality": "Quality",
+    "support": "Support",
+    "warranty": "Warranty",
+    "quote": "Request Quote",
+    "close": "Close",
+    "certified": "CERTIFIED",
+    "new": "NEW PRODUCT"
+  },
+  "footer": {
+    "description": "Proven quality, certified products for the petroleum industry.",
+    "quickLinks": "QUICK LINKS",
+    "services": "SERVICES",
+    "contact": "CONTACT",
+    "rights": "All rights reserved."
+  }
+}
