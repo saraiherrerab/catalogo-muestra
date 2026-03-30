@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Catálogo de Productos Petroleros
 
-## Getting Started
+Sistema de catálogo interactivo para productos petroleros con capacidad de gestionar hasta 30 productos.
 
-First, run the development server:
+## Características
 
+- ✅ Catálogo visual de productos petroleros
+- ✅ Páginas de detalle para cada producto
+- ✅ Panel de administración para agregar/editar/eliminar productos
+- ✅ Límite de 30 productos
+- ✅ Diseño responsive inspirado en Termofusion
+- ✅ Categorización de productos
+- ✅ Etiquetas de "Nuevo" y "Certificado"
+- ✅ Características técnicas y aplicaciones
+
+## Tecnologías
+
+- Next.js 16.2.1
+- React 19.2.4
+- TypeScript 5
+- Tailwind CSS 4
+
+## Instalación y Uso
+
+### 1. Instalar dependencias (ya instaladas)
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Iniciar servidor de desarrollo
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+El sitio estará disponible en: http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Construir para producción
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Estructura del Proyecto
 
-To learn more about Next.js, take a look at the following resources:
+```
+catalogo-productos-petroleros/
+├── app/
+│   ├── layout.tsx          # Layout principal con navegación
+│   ├── page.tsx            # Página de inicio con catálogo
+│   ├── globals.css         # Estilos globales
+│   ├── admin/
+│   │   └── page.tsx        # Panel de administración
+│   └── producto/
+│       └── [id]/
+│           └── page.tsx    # Página de detalle de producto
+├── data/
+│   └── productos.ts        # Base de datos de productos
+└── public/                 # Archivos estáticos
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Páginas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **/** - Catálogo principal con todos los productos
+- **/producto/[id]** - Detalle de cada producto
+- **/admin** - Panel de administración (agregar/editar/eliminar)
 
-## Deploy on Vercel
+## Gestión de Productos
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Los productos se gestionan desde `/admin` donde puedes:
+- Agregar nuevos productos (hasta 30)
+- Editar productos existentes
+- Eliminar productos
+- Marcar como "Nuevo" o "Certificado"
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Estructura de Producto
+
+Cada producto incluye:
+- Nombre
+- Categoría
+- Descripción corta y larga
+- Imagen
+- Características técnicas
+- Aplicaciones
+- Estado (nuevo/certificado)
+
+## Próximos Pasos
+
+Para conectar con una base de datos real, considera:
+- Implementar API routes en Next.js
+- Conectar con MongoDB, PostgreSQL o Firebase
+- Agregar autenticación para el panel admin
+- Implementar sistema de búsqueda y filtros
