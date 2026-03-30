@@ -10,9 +10,13 @@
     "hero": {
       "title": "CATÁLOGO DE PRODUCTOS PETROLEROS",
       "subtitle": "Calidad comprobada, productos homologados",
+      "subtitle1": "Calidad comprobada",
+      "subtitle2": "Productos homologados",
       "certified": "Productos Certificados",
       "delivery": "Entrega Nacional",
-      "warranty": "Garantía de Calidad"
+      "warranty": "Garantía de Calidad",
+      "desc": "La solución exacta para cada necesidad operativa. Explora nuestro catálogo especializado.",
+      "explore": "Explorar Catálogo"
     },
     "products": {
       "title": "NUESTROS PRODUCTOS",

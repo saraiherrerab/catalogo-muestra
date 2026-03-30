@@ -10,9 +10,13 @@
     "hero": {
       "title": "PETROLEUM PRODUCTS CATALOG",
       "subtitle": "Proven quality, certified products",
+      "subtitle1": "Proven quality",
+      "subtitle2": "Certified products",
       "certified": "Certified Products",
       "delivery": "National Delivery",
-      "warranty": "Quality Warranty"
+      "warranty": "Quality Warranty",
+      "desc": "The exact solution for every operational need. Explore our specialized catalog.",
+      "explore": "Explore Catalog"
     },
     "products": {
       "title": "OUR PRODUCTS",

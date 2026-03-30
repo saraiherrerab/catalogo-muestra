@@ -6,26 +6,30 @@ export default function LanguageSwitcher() {
   const { language, setLanguage } = useLanguage();
 
   return (
-    <div className="flex items-center gap-2 bg-gray-100 rounded-lg p-1">
+    <div className="flex items-center gap-3 bg-white/30 backdrop-blur-md rounded-2xl p-3 md:p-4 border-2 border-amber-300/40 shadow-xl transition-all duration-300 min-w-[140px] md:min-w-[200px] w-full max-w-xs">
       <button
         onClick={() => setLanguage('es')}
-        className={`px-3 py-1 rounded-md text-sm font-medium transition-colors ${
+        className={`flex-1 flex items-center justify-center gap-2 px-0 py-2 rounded-lg text-base font-bold transition-all duration-200 ${
           language === 'es'
-            ? 'bg-amber-600 text-white'
-            : 'text-gray-700 hover:bg-gray-200'
+            ? 'bg-white/80 text-blue-700 shadow ring-2 ring-amber-300/60'
+            : 'text-gray-700 hover:bg-white/40 hover:text-blue-900'
         }`}
+        title="Español"
       >
-        ES
+        <span className="text-xl leading-none">🇪🇸</span>
+        <span className="hidden sm:inline">ES</span>
       </button>
       <button
         onClick={() => setLanguage('en')}
-        className={`px-3 py-1 rounded-md text-sm font-medium transition-colors ${
+        className={`flex-1 flex items-center justify-center gap-2 px-0 py-2 rounded-lg text-base font-bold transition-all duration-200 ${
           language === 'en'
-            ? 'bg-amber-600 text-white'
-            : 'text-gray-700 hover:bg-gray-200'
+            ? 'bg-white/80 text-blue-700 shadow ring-2 ring-amber-300/60'
+            : 'text-gray-700 hover:bg-white/40 hover:text-blue-900'
         }`}
+        title="English"
       >
-        EN
+        <span className="text-xl leading-none">🇺🇸</span>
+        <span className="hidden sm:inline">EN</span>
       </button>
     </div>
   );
